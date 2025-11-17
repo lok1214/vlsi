@@ -1,3 +1,4 @@
+#comment for array
 module simple_array;
   int my_array[5];
   initial begin
