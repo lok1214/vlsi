@@ -1,0 +1,16 @@
+module simple_array;
+  int my_array[5];
+  initial begin
+    my_array[0] = 10;
+    my_array[1] = 20;
+    my_array[2] = 30;
+    my_array[3] = 40;
+    my_array[4] = 50;
+    $display("Array values:");
+    $display("my_array[0] = %0d", my_array[0]);
+    $display("my_array[1] = %0d", my_array[1]);
+    $display("my_array[2] = %0d", my_array[2]);
+    $display("my_array[3] = %0d", my_array[3]);
+    $display("my_array[4] = %0d", my_array[4]);
+  end
+endmodule
