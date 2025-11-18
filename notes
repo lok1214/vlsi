@@ -1,0 +1,5 @@
+RANDAMAIZATION
+# SystemVerilog provides rand keyword and randomize() method.
+$random() SIGNED 32 bit
+$urandom() UNSIGNED 32 bit
+$urandom_range() UNSIGNED range 
