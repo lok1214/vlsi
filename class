@@ -1,0 +1,22 @@
+#comment class
+class lok;
+  int mul,div;
+  function mult(int a,int b);
+    this.mul=a*b;
+  endfunction
+  
+  function divv(int a,int b);
+    this.div=a/b;
+  endfunction
+  
+endclass
+
+module singam();
+ lok pradeep;
+  initial begin
+    pradeep=new();
+  pradeep.mult(9,7);
+  pradeep.divv(9,7);
+    $display("mul=%0d , div=%0d" , pradeep.mul ,pradeep.div);
+  end
+endmodule
